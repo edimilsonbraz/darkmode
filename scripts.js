@@ -13,6 +13,8 @@ const initialColors = {
     bgPanel: getStyle(html, "--bg-panel"),
     colorHeading: getStyle(html, "--color-headings"),
     colorText: getStyle(html, "--color-text"),
+    colorBlack: getStyle(html, "--color-black"),
+    colorRocket: getStyle(html, "--color-rocket"),
 }
 
 const darkmode = {
@@ -20,7 +22,10 @@ const darkmode = {
     bg: "#333333",
     bgPanel: "#434343",
     colorHeading: "#3664FF",
-    colorText: "#B5B5B5"
+    colorText: " #13AFF0",
+    colorBlack: "#B5B5B5",
+    colorRocket: "#13AFF0",
+    
 }
 
 const transformKey = key => 
